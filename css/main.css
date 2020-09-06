@@ -1,0 +1,143 @@
+
+
+body{
+    background-image: url("../images/abaclassroom1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+h1{
+    
+}
+
+
+.block{
+  display:flex;
+  width:100vw;
+  height:100vh;
+  text-align:center; 
+ }
+.left-p{  
+  flex:1.3335;     
+}
+
+.left-p p{
+    text-align: left;    
+    font-size: 500%;
+    font-family: 'Francois One', sans-serif; /*font-family: 'Rubik Mono One', sans-serif; */
+    color: #0ABDFF; /* #5e0231 (purple) #2B2A2A(light black) #0866A5(twitter blue) #0C9EFF*/
+    text-shadow: 2px 2px 2px #0866A5; 
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+.right-p{
+  margin-top: .75em;
+  margin-bottom: 4.5em;
+  margin-right: 4.5em;
+  background-color: #e8edf3; /* honeydew, #e8edf3, linen, mediumspringgreen, dodgerblue(#0059b3) #6ed3cf (blue)) #6534ff(purple))*/
+  border: solid honeydew 2px; /* #e05038 */
+  box-shadow: 7px 7px 5px #888888;
+  flex:1.300;   
+}
+.right-p p:first-child{
+    font-size: 36px;
+    font-family: 'Francois One', sans-serif;
+    color: #e05038;    
+}
+
+.right-p a{
+    font-family: 'Francois One', sans-serif;
+    font-size: 18px;
+    padding: 2em;
+    color: #0B8BE0;
+    text-decoration: none; 
+}
+.right-p a:hover {
+	color: #e05038;
+}
+.right-p a:visited{
+    color: #0B8BE0;
+}
+.right-p a:visited:hover{
+	color: #e05038;
+}
+
+
+body input[type="submit"]{
+    float: right;
+    margin-right: 2em;
+}
+
+.right-subcontainer{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;   
+    justify-content: center;
+}
+figure{
+    flex-basis: 125px;
+}
+figcaption{
+    font-family: 'Francois One', sans-serif;
+    color: #e05038;
+}
+
+footer {
+    text-align: center;    
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}
+
+/**********************************************************
+                    SCHEDULE.php
+**********************************************************/
+
+               
+        /***********SCHEDULE DISPLAY*******/
+
+#schedule_div {
+    display:flex;
+}        
+            /***********TABLE******************/
+#schedule_table{
+    flex:1.9335;     
+    border-radius: 15px 50px 30px;
+    margin-left: 2em;
+    background-color:#e05038; 
+    opacity: 0.5;
+}
+#schedule_table:hover{    
+    opacity: 0.9;
+}
+#schedule_table:active{    
+    opacity: 1;
+} 
+#schedule_table table{
+    
+    margin: auto;
+    border: 1px solid black;
+    font-weight: bolder;
+    font-size:17px;
+    opacity: 1.0;
+    
+}
+        /**********************************
+        /***********BUTTONS***************/
+#schedule_controls input[name='user_note']{
+    width: 400px;
+    float:right;
+    margin-bottom: 15em;
+    
+}
+#schedule_controls input[name='set_appt_button']{
+    margin: 2em 5em 2em 1em;
+}
+        
+        /**********************************/
